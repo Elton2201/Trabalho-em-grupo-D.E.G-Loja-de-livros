@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+
+ body {
+    background-color: #eddde9;
+ }
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #fa8fb1;
+     font-family: 'bioRhyme', serif;
+     font-size: 30px;
+    
+}
+ footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #fa8fb1;
+    font-size: 30px;
+    font-family: 'bioRhyme', serif;
+    
+ }
+
+
+ main {
+    margin: 30px;
+    padding: 20px;
+ }
+
+
+p { color: black;
+    background-color: white;
+    border: 1px solid pink;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+
+h2 {
+    color:#fa8fb1;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+footer img {
+    width:80px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#social_links {
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img:hover{
+    border-radius: 100px;
+    background-color: white;
+    transition: background 0.60s;
+    background-image: url(https://www.instagram.com/gs_sousa____/#);
+}
+
+
+button {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:#eddde9;
+    border-radius: 50px;
+    transition: background 0.30s;
+}
+
+
